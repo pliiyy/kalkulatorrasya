@@ -95,7 +95,7 @@ function App() {
             <div class="wrapper">
                 <div class="tombol tombol-aktif tombol-angka bg-dark-blue" onClick={() => setInput((prev) => prev + "7")}>7</div>
                 <div class="tombol tombol-aktif tombol-angka bg-dark-blue" onClick={() => setInput((prev) => prev + "8")}>8</div>
-                <div class="tombol tombol-aktif tombol-angka bg-dark-blue" onclick={() => setInput((prev) => prev + "9")}>9</div>
+                <div class="tombol tombol-aktif tombol-angka bg-dark-blue" onClick={() => setInput((prev) => prev + "9")}>9</div>
                 <div class="tombol tombol-aktif tombol-operasi bg-brown" onClick={() => setInput((prev) => Number(prev) /100)} >%</div>
             </div>
             <div class="wrapper">
